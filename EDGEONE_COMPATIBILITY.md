@@ -4,7 +4,7 @@
 
 BPB Worker Panel 现在支持在 EdgeOne Pages 上部署。EdgeOne Pages 与 Cloudflare Workers 使用相同的 V8 引擎和 Service Worker API，因此代码无需修改即可运行。
 
-B, Worker Panel now supports deployment on EdgeOne Pages. EdgeOne Pages uses the same V8 engine and Service Worker API as Cloudflare Workers, so the code runs without modification.
+BPB Worker Panel now supports deployment on EdgeOne Pages. EdgeOne Pages uses the same V8 engine and Service Worker API as Cloudflare Workers, so the code runs without modification.
 
 ## API 兼容性 / API Compatibility
 

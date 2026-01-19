@@ -90,7 +90,7 @@ edgeone-cli deploy --config edgeone.config.json
 3. **兼容性标志**：必须启用 `nodejs_compat` 标志以支持 Node.js 运行时 API
 4. **代码大小**：EdgeOne Pages 有代码包大小限制，请注意优化
 5. **请求限制**：注意 EdgeOne 的请求频率和并发限制
-5. **费用**：EdgeOne 服务按使用量计费，请注意成本控制
+6. **费用**：EdgeOne 服务按使用量计费，请注意成本控制
 
 ### 常见问题
 
@@ -194,7 +194,7 @@ After successful deployment, access via:
 3. **Compatibility Flag**: Must enable `nodejs_compat` flag to support Node.js runtime APIs
 4. **Code Size**: EdgeOne Pages has code package size limits
 5. **Request Limits**: Be aware of EdgeOne's request frequency and concurrency limits
-5. **Cost**: EdgeOne service is billed by usage, monitor costs carefully
+6. **Cost**: EdgeOne service is billed by usage, monitor costs carefully
 
 ### FAQ
 
