@@ -12,5 +12,10 @@
 !README.md
 !RELEASE.md
 !NAT64Prefixes.md
+!EDGEONE_*.md
+!edgeone.config.json
+!.edgeonerc
+!edge-functions/
+!edge-functions/**
 !docs
 !docs/**

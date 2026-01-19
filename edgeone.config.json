@@ -1,0 +1,15 @@
+{
+  "name": "bpb-worker-panel",
+  "build": {
+    "command": "npm run build",
+    "outputDir": "dist",
+    "functionsDir": "edge-functions"
+  },
+  "kv": {
+    "binding": "kv"
+  },
+  "compatibility": {
+    "date": "2024-01-01",
+    "notes": "BPB Worker Panel is fully compatible with EdgeOne Pages platform. Uses file-based routing with [[path]].js wildcard route."
+  }
+}

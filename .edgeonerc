@@ -1,0 +1,19 @@
+# EdgeOne Pages Configuration
+# This file is used by EdgeOne CLI for project settings
+
+# Project name
+name = "bpb-worker-panel"
+
+# Build configuration
+[build]
+command = "npm run build"
+output_dir = "dist"
+functions_dir = "edge-functions"
+
+# KV namespace binding
+[kv]
+binding = "kv"
+
+# Environment variables (set in EdgeOne Pages console)
+# Required: UUID, TR_PASS
+# Optional: SUB_PATH, FALLBACK, DOH_URL, PROXY_IP, PREFIX
