@@ -6,11 +6,14 @@
 !src/**
 !scripts/
 !scripts/build.js
+!scripts/deploy-edgeone.cjs
 !.github/
 !.github/**
 !README_fa.md
 !README.md
 !RELEASE.md
 !NAT64Prefixes.md
+!EDGEONE_*.md
+!edgeone.config.json
 !docs
 !docs/**
