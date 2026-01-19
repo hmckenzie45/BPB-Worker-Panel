@@ -13,9 +13,9 @@
 
 - با **Cloudflare Workers**
 - با **Cloudflare Pages**  
-- با **EdgeOne Pages** (تنسنت کلاود) - جدید! ✨
+- با **EdgeOne Functions** (تنسنت کلاود) - جدید! ✨
 
-> 📖 **راهنمای استقرار EdgeOne Pages**: برای استقرار روی پلتفرم EdgeOne Pages تنسنت کلاود، [راهنمای کامل فارسی](EDGEONE_DEPLOYMENT.md#中文版本) را مطالعه کنید.
+> 📖 **راهنمای استقرار EdgeOne Functions**: برای استقرار روی پلتفرم EdgeOne تنسنت کلاود، [راهنمای کامل فارسی](EDGEONE_DEPLOYMENT.md#中文版本) را مطالعه کنید.
 
 🌟 اگه **پنل BPB** براتون مفید بوده، با حمایتتون بهم دلگرمی می‌دید 🌟
 

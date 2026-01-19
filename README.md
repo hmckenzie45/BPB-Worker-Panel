@@ -13,9 +13,9 @@ This project is aimed to provide a user panel to access FREE, SECURE and PRIVATE
 
 - **Workers** deployment (Cloudflare)
 - **Pages** deployment (Cloudflare)
-- **EdgeOne Pages** deployment (Tencent Cloud) - NEW! ✨
+- **EdgeOne Functions** deployment (Tencent Cloud) - NEW! ✨
 
-> 📖 **EdgeOne Pages Deployment Guide**: To deploy on Tencent Cloud EdgeOne Pages platform, see the [complete deployment guide](EDGEONE_DEPLOYMENT.md#english-version).
+> 📖 **EdgeOne Functions Deployment Guide**: To deploy on Tencent Cloud EdgeOne platform, see the [complete deployment guide](EDGEONE_DEPLOYMENT.md#english-version).
 
 🌟 If you found **BPB Panel** valuable, Your donations make all the difference 🌟
 

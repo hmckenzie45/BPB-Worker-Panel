@@ -13,32 +13,29 @@ npm install
 npm run build
 ```
 
-### 第二步：准备 EdgeOne
+### 第二步：注册 EdgeOne Pages
 
-1. 访问 [EdgeOne 控制台](https://console.cloud.tencent.com/edgeone)
-2. 创建站点（如果还没有）
-3. 进入"边缘函数" -> "函数管理"
-4. 点击"新建函数"
+1. 访问 [EdgeOne Pages](https://pages.edgeone.ai/)
+2. 注册/登录账号
+3. 创建新项目（选择"边缘函数项目"）
 
 ### 第三步：创建 KV 存储
 
-1. 在 EdgeOne 控制台，进入"边缘函数" -> "KV 存储"
+1. 在项目设置中，进入"KV 存储"
 2. 创建命名空间，名称如：`bpb-kv`
-3. 记录命名空间 ID
+3. 绑定变量名设置为：`kv`
 
 ### 第四步：上传代码
 
-1. 在函数管理页面，选择"上传代码包"
+1. 在项目"函数"页面，点击"上传代码"
 2. 上传文件：`dist/worker.js`
-3. 函数名称：`bpb-worker`
-4. 运行时：Node.js
+3. 入口文件设置为：`worker.js`
 
 ### 第五步：绑定 KV
 
-1. 在函数详情页，点击"环境"标签
-2. 在"KV 命名空间绑定"部分：
-   - 变量名：`kv`
-   - 选择刚才创建的 KV 命名空间
+确认在项目设置中，KV 命名空间已绑定：
+- 变量名：`kv`
+- 命名空间：选择刚才创建的 `bpb-kv`
 
 ### 第六步：设置环境变量
 
@@ -49,17 +46,13 @@ npm run build
 | UUID | `a1b2c3d4-e5f6-7890-abcd-ef1234567890` | VLESS UUID |
 | TR_PASS | `mypassword123` | Trojan 密码 |
 
-### 第七步：配置路由
+### 第七步：部署
 
-1. 在站点设置中，进入"规则引擎"
-2. 添加规则：
-   - 匹配：`/*`（所有路径）
-   - 动作：触发函数
-   - 选择您的函数：`bpb-worker`
+点击"部署"按钮，等待部署完成
 
 ### 第八步：测试
 
-访问：`https://your-domain.com/panel`
+访问：`https://your-project.pages.edgeone.ai/panel`
 
 ---
 

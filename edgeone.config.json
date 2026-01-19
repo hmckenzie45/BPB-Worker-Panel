@@ -1,16 +1,15 @@
 {
   "name": "bpb-worker-panel",
-  "compatibilityDate": "2024-01-01",
-  "compatibilityFlags": ["nodejs_compat"],
-  "compatibilityNotes": "nodejs_compat flag enables Node.js compatibility features required for runtime APIs",
-  "vars": {},
+  "build": {
+    "command": "npm run build",
+    "outputDir": "dist",
+    "functionsDir": "edge-functions"
+  },
   "kv": {
     "binding": "kv"
   },
-  "routes": [
-    {
-      "pattern": "/*",
-      "script": "dist/worker.js"
-    }
-  ]
+  "compatibility": {
+    "date": "2024-01-01",
+    "notes": "BPB Worker Panel is fully compatible with EdgeOne Pages platform. Uses file-based routing with [[path]].js wildcard route."
+  }
 }
