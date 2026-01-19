@@ -51,6 +51,7 @@ EdgeOne Pages 是腾讯云 EdgeOne 提供的边缘函数服务，类似于 Cloud
 3. 选择"上传代码包"
 4. 上传 `dist/worker.js` 文件
 5. 在函数配置中：
+   - **运行时兼容性**：启用 `nodejs_compat` 标志（必需，用于 Node.js API 兼容）
    - 绑定 KV 命名空间（绑定名称：`kv`）
    - 配置环境变量
    - 设置触发路由
@@ -86,8 +87,9 @@ edgeone-cli deploy --config edgeone.config.json
 
 1. **KV 绑定**：确保 KV 命名空间绑定名称为 `kv`
 2. **环境变量**：所有环境变量需要在 EdgeOne 控制台配置
-3. **代码大小**：EdgeOne Pages 有代码包大小限制，请注意优化
-4. **请求限制**：注意 EdgeOne 的请求频率和并发限制
+3. **兼容性标志**：必须启用 `nodejs_compat` 标志以支持 Node.js 运行时 API
+4. **代码大小**：EdgeOne Pages 有代码包大小限制，请注意优化
+5. **请求限制**：注意 EdgeOne 的请求频率和并发限制
 5. **费用**：EdgeOne 服务按使用量计费，请注意成本控制
 
 ### 常见问题
@@ -153,6 +155,7 @@ Configure the following environment variables in EdgeOne Pages console:
 3. Select "Upload Code Package"
 4. Upload `dist/worker.js` file
 5. In function configuration:
+   - **Runtime Compatibility**: Enable `nodejs_compat` flag (required for Node.js API compatibility)
    - Bind KV namespace (binding name: `kv`)
    - Configure environment variables
    - Set trigger routes
@@ -188,8 +191,9 @@ After successful deployment, access via:
 
 1. **KV Binding**: Ensure KV namespace binding name is `kv`
 2. **Environment Variables**: All environment variables must be configured in EdgeOne console
-3. **Code Size**: EdgeOne Pages has code package size limits
-4. **Request Limits**: Be aware of EdgeOne's request frequency and concurrency limits
+3. **Compatibility Flag**: Must enable `nodejs_compat` flag to support Node.js runtime APIs
+4. **Code Size**: EdgeOne Pages has code package size limits
+5. **Request Limits**: Be aware of EdgeOne's request frequency and concurrency limits
 5. **Cost**: EdgeOne service is billed by usage, monitor costs carefully
 
 ### FAQ

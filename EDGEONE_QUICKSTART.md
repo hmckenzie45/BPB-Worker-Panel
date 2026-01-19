@@ -7,7 +7,7 @@
 ### 第一步：构建项目
 
 ```bash
-git clone <your-repo>
+git clone https://github.com/bia-pain-bache/BPB-Worker-Panel.git
 cd BPB-Worker-Panel
 npm install
 npm run build
@@ -68,7 +68,7 @@ npm run build
 ### Step 1: Build Project
 
 ```bash
-git clone <your-repo>
+git clone https://github.com/bia-pain-bache/BPB-Worker-Panel.git
 cd BPB-Worker-Panel
 npm install
 npm run build
